@@ -47,7 +47,7 @@ st.sidebar.markdown( '### Powered by Leonardo Oliveira de Sousa' )
 
 st.markdown(
 """
-### I. Sobre o Projeto:
+### I. Premissas do Projeto:
     1. Os dados foram obtidos da plataforma Kaggle (https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?resource=download&select=zomato.csv).
     2. A limpeza no código inclui a exclusão de linhas duplicadas e com dados faltantes, juntamente com a adicição de colunas com dados tratados para facilitar a manipulação.
     3. Foi feita uma conversão de valores das moedas registradas para o Dollar($), criando uma nova coluna para tratar todos restaurantes nos mesmos parâmetros em relação a sua moeda.
@@ -118,16 +118,25 @@ st.markdown(
       d. Culinarias com mais restaurantes que aceitam pedidos online e fazem entrega.
       e. Culinarias com mais restaurantes que fazem reserva de mesa
 
-#### Atualizações futuras:
-    - Manter continentes selecionados no chekbox do Filtro 1 após mudar de pagina, simplificando a intereação para o usuario
-    """)
+### O produto final do projeto
+	Painel online, hospedando em Cloud e disponível para acesso em qualquer dispositivo conectado à internet.
+	O painel pode ser acessado através desse link: https://portfolio-dashboard-kpi-fomezero.streamlit.app/
+
+### Conclusão
+	O bjetivo desse projeto foi criar um conjunto de gráficos e/ou tabelas que exibam as métricas da melhor forma possível para o CEO, permitindo a vizualização das KPIs .
+
+### Atualizações futuras:
+    - Manter continentes selecionados no chekbox do Filtro 1 após mudar de pagina, simplificando a intereação para o usuario;
+    - Reduzir número de métricas
+    - Adicionar novas visões de negócio
+    """
+    )
 
 st.markdown( """___""" )
 
-st.markdown(
+st.markdown( 
     """
-    ### Ask for Help
-    - LinkedIn:  https://www.linkedin.com/in/leonardooliveirads/ 
-    - Email:     leonardooliveiradesousa@outlook.com.br
-    """
-    )
+### Ask for Help
+- LinkedIn:  https://www.linkedin.com/in/leonardooliveirads/ 
+- Email:     leonardooliveiradesousa@outlook.com.br
+    """)
